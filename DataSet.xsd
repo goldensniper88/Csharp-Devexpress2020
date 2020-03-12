@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet" targetNamespace="http://tempuri.org/DataSet.xsd" xmlns:mstns="http://tempuri.org/DataSet.xsd" xmlns="http://tempuri.org/DataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet" msprop:Generator_UserDSName="DataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TaskTable" msprop:Generator_TableClassName="TaskTableDataTable" msprop:Generator_TableVarName="tableTaskTable" msprop:Generator_TablePropName="TaskTable" msprop:Generator_RowDeletingName="TaskTableRowDeleting" msprop:Generator_RowChangingName="TaskTableRowChanging" msprop:Generator_RowEvHandlerName="TaskTableRowChangeEventHandler" msprop:Generator_RowDeletedName="TaskTableRowDeleted" msprop:Generator_UserTableName="TaskTable" msprop:Generator_RowChangedName="TaskTableRowChanged" msprop:Generator_RowEvArgName="TaskTableRowChangeEvent" msprop:Generator_RowClassName="TaskTableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Index" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnIndex" msprop:Generator_ColumnPropNameInRow="Index" msprop:Generator_ColumnPropNameInTable="IndexColumn" msprop:Generator_UserColumnName="Index" type="xs:int" />
+              <xs:element name="Headline" msprop:Generator_ColumnVarNameInTable="columnHeadline" msprop:Generator_ColumnPropNameInRow="Headline" msprop:Generator_ColumnPropNameInTable="HeadlineColumn" msprop:Generator_UserColumnName="Headline" type="xs:string" minOccurs="0" />
+              <xs:element name="Milestone" msprop:Generator_ColumnVarNameInTable="columnMilestone" msprop:Generator_ColumnPropNameInRow="Milestone" msprop:Generator_ColumnPropNameInTable="MilestoneColumn" msprop:Generator_UserColumnName="Milestone" type="xs:string" minOccurs="0" />
+              <xs:element name="DueDate" msprop:Generator_ColumnVarNameInTable="columnDueDate" msprop:Generator_ColumnPropNameInRow="DueDate" msprop:Generator_ColumnPropNameInTable="DueDateColumn" msprop:Generator_UserColumnName="DueDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="EndDate" msprop:Generator_ColumnVarNameInTable="columnEndDate" msprop:Generator_ColumnPropNameInRow="EndDate" msprop:Generator_ColumnPropNameInTable="EndDateColumn" msprop:Generator_UserColumnName="EndDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Category" msprop:Generator_ColumnVarNameInTable="columnCategory" msprop:Generator_ColumnPropNameInRow="Category" msprop:Generator_ColumnPropNameInTable="CategoryColumn" msprop:Generator_UserColumnName="Category" type="xs:string" minOccurs="0" />
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Customer" msprop:Generator_ColumnVarNameInTable="columnCustomer" msprop:Generator_ColumnPropNameInRow="Customer" msprop:Generator_ColumnPropNameInTable="CustomerColumn" msprop:Generator_UserColumnName="Customer" type="xs:string" minOccurs="0" />
+              <xs:element name="Technican" msprop:Generator_ColumnVarNameInTable="columnTechnican" msprop:Generator_ColumnPropNameInRow="Technican" msprop:Generator_ColumnPropNameInTable="TechnicanColumn" msprop:Generator_UserColumnName="Technican" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ViewTable" msprop:Generator_TableClassName="ViewTableDataTable" msprop:Generator_TableVarName="tableViewTable" msprop:Generator_TablePropName="ViewTable" msprop:Generator_RowDeletingName="ViewTableRowDeleting" msprop:Generator_RowChangingName="ViewTableRowChanging" msprop:Generator_RowEvHandlerName="ViewTableRowChangeEventHandler" msprop:Generator_RowDeletedName="ViewTableRowDeleted" msprop:Generator_UserTableName="ViewTable" msprop:Generator_RowChangedName="ViewTableRowChanged" msprop:Generator_RowEvArgName="ViewTableRowChangeEvent" msprop:Generator_RowClassName="ViewTableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DayofWeek" msprop:Generator_ColumnVarNameInTable="columnDayofWeek" msprop:Generator_ColumnPropNameInRow="DayofWeek" msprop:Generator_ColumnPropNameInTable="DayofWeekColumn" msprop:Generator_UserColumnName="DayofWeek" type="xs:int" minOccurs="0" />
+              <xs:element name="GroupTitle" msprop:Generator_ColumnVarNameInTable="columnGroupTitle" msprop:Generator_ColumnPropNameInRow="GroupTitle" msprop:Generator_ColumnPropNameInTable="GroupTitleColumn" msprop:Generator_UserColumnName="GroupTitle" type="xs:string" minOccurs="0" />
+              <xs:element name="Headline" msprop:Generator_ColumnVarNameInTable="columnHeadline" msprop:Generator_ColumnPropNameInRow="Headline" msprop:Generator_ColumnPropNameInTable="HeadlineColumn" msprop:Generator_UserColumnName="Headline" type="xs:string" minOccurs="0" />
+              <xs:element name="Milestone" msprop:Generator_ColumnVarNameInTable="columnMilestone" msprop:Generator_ColumnPropNameInRow="Milestone" msprop:Generator_ColumnPropNameInTable="MilestoneColumn" msprop:Generator_UserColumnName="Milestone" type="xs:string" minOccurs="0" />
+              <xs:element name="DueDate" msprop:Generator_ColumnVarNameInTable="columnDueDate" msprop:Generator_ColumnPropNameInRow="DueDate" msprop:Generator_ColumnPropNameInTable="DueDateColumn" msprop:Generator_UserColumnName="DueDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="EndDate" msprop:Generator_ColumnVarNameInTable="columnEndDate" msprop:Generator_ColumnPropNameInRow="EndDate" msprop:Generator_ColumnPropNameInTable="EndDateColumn" msprop:Generator_UserColumnName="EndDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Category" msprop:Generator_ColumnVarNameInTable="columnCategory" msprop:Generator_ColumnPropNameInRow="Category" msprop:Generator_ColumnPropNameInTable="CategoryColumn" msprop:Generator_UserColumnName="Category" type="xs:string" minOccurs="0" />
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Customer" msprop:Generator_ColumnVarNameInTable="columnCustomer" msprop:Generator_ColumnPropNameInRow="Customer" msprop:Generator_ColumnPropNameInTable="CustomerColumn" msprop:Generator_UserColumnName="Customer" type="xs:string" minOccurs="0" />
+              <xs:element name="Technican" msprop:Generator_ColumnVarNameInTable="columnTechnican" msprop:Generator_ColumnPropNameInRow="Technican" msprop:Generator_ColumnPropNameInTable="TechnicanColumn" msprop:Generator_UserColumnName="Technican" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="TaskTableKey" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:TaskTable" />
+      <xs:field xpath="mstns:Index" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
